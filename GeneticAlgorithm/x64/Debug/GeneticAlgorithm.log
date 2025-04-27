@@ -1,8 +1,0 @@
-﻿  GeneticAlgorithm.cpp
-C:\Users\konra\source\repos\GeneticAlgorithm\GeneticAlgorithm\GeneticAlgorithm.cpp(87,11): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\konra\source\repos\GeneticAlgorithm\GeneticAlgorithm\GeneticAlgorithm.cpp(308,35): warning C4244: "argument": konwersja z "double" do "_Ty", możliwa utrata danych
-          with
-          [
-              _Ty=int
-          ]
-  GeneticAlgorithm.vcxproj -> C:\Users\konra\source\repos\GeneticAlgorithm\x64\Debug\GeneticAlgorithm.exe
