@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.VC.opendb
+
+# Build katalogi
+x64/
+Debug/
+Release/
+build/
+
+# Pliki binarne
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+
+# Pliki tymczasowe
+*.tmp
+*.tlog
+*.idb
+*.ipch
+
+# Inne niepotrzebne pliki
+*.suo
+*.cache
+*.sdf
+*.opensdf
+*.user
+*.ncb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
