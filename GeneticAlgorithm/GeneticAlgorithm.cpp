@@ -27,7 +27,7 @@ struct SumList
 
 void savePointsToFile( const vector<pair<int, int>>& points)
 {
-  string filename = "C:/Users/konra/PycharmProjects/Genetic_graphs/Punkty.txt";
+  string filename = "Punkty.txt";
   ofstream file( filename );
 
   for( const auto& p : points )
@@ -41,7 +41,7 @@ void savePointsToFile( const vector<pair<int, int>>& points)
 
 void saveSumsToFile( const vector<int>& sums )
 {
-  string filename = "C:/Users/konra/PycharmProjects/Genetic_graphs/Sumy.txt";
+  string filename = "Sumy.txt";
   ofstream file( filename );
 
   for( const auto& p : sums )
@@ -55,7 +55,7 @@ void saveSumsToFile( const vector<int>& sums )
 
 void saveRoutetoFile(const vector<vector<int>>& routes)
 {
-  string filename = "C:/Users/konra/PycharmProjects/Genetic_graphs/Trasy.txt";
+  string filename = "Trasy.txt";
   ofstream file( filename );
 
   for( const auto& p : routes )
@@ -81,12 +81,12 @@ void randCities(vector<pair<int,int>>& points) {
   for( int i = 0; i < CITIES_N; i++ )
   {
     int x = rand() % 100 + 1;
-    //int y = rand() % 100 + 1;
+    int y = rand() % 100 + 1;
     
     //circle
-    int y = sqrt( pow( 50, 2 ) - pow( x-50, 2 ) );
-    if( rand() % 2 == 0 ) y = -y;
-    y += 50;
+    //int y = sqrt( pow( 50, 2 ) - pow( x-50, 2 ) );
+    //if( rand() % 2 == 0 ) y = -y;
+    //y += 50;
 
     points.push_back( make_pair( x, y ) );
     //printf( "Wylosowane zmienne: x: %d,y: %d\n", x, y );
